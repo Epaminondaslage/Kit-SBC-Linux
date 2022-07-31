@@ -3,9 +3,6 @@
 <p><strong><span style="color: #0000ff;">Prof Epaminondas Lage</span></strong></p>
 <a href="http://lattes.cnpq.br/7787341723868111"> Currículo Lattes LAGE, E. S.</a> 
 
-
-<td style="width: 15%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/em%20constru%C3%A7%C3%A3o.jpg" width="15%" /></td>
-
 # Índice 
 
 * [Introdução](#Introdução)
@@ -17,6 +14,10 @@
 * [Status do Projeto](#Status-do-Projeto)
 
 # Introdução
+
+Relés são componentes atuam como interruptores, acionando ou parando a ação de um circuito por meio da (re)transmissão de corrente elétrica. Por isolar sinais, é muito útil para a segurança de um circuito. Relés são ativados por correntes elétricas bem inferiores àquelas empregadas no circuito principal, que pode ser controlado por componentes como transistores e fotoresistores. Assim, não é necessário operar com cargas elevadas.
+
+Tipicamente, um relé de constituição muito básica apresenta uma bobina, um circuito magnético e alguns contatos: contato central, contato normalmente aberto e contato normalmente fechado. A Figura 1 apresenta suas partes constituintes. No nosso Kit iremos operar com um módulo de 8 relés, o qual jé é construido para orerar em faixas de tensão e modos de operação que vamos descrever a seguir.
 
 <table border="0">
 <tbody>
