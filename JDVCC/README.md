@@ -11,12 +11,13 @@
 * [Introdução](#Introdução)
 * [Módulo Relé com apenas "1 canal"](#Módulo-Relé-com-apenas-"1 canal")
 * ["JD-VCC" não conectado ao "VCC"](#"JD-VCC"-não-conectado-ao-"VCC")
-* [Introdução](#Introdução)
+* ["JD-VCC" conectado ao "VCC"](#"JD-VCC"-conectado-ao-"VCC")
+* [Módulo Relé com apenas "8 canais"](#Módulo-Relé-com-apenas-"8 canais")
 * [Referência](#Referência)
 
 # Introdução
 
-## Módulo Relé com apenas "1 canal"
+# Módulo Relé com apenas "1 canal"
 
 Na figura,  vc pode observar que a sequência dos sinais no Circuito, foi alterada. A sequência dos pinos está ao lado da "foto" do módulo Relé,  sendo os pinos numerados de 1 a 5.  Mas esta numeração não é importante. O importante são os sinais em si, e no Circuito eu alterei esta sequência apenas para para facilitar o entendimento do funcionamento.
 
@@ -24,7 +25,7 @@ Na figura,  vc pode observar que a sequência dos sinais no Circuito, foi altera
 
 Vamos considerar 2 cenários: um onde o "JD-VCC" não está conectado ao "VCC", e um onde o "JD-VCC" está conectado ao "VCC" (via "jumper" encaixado nos dois terminais no conector). Então segue:
 
-## "JD-VCC" não conectado ao "VCC"
+# "JD-VCC" não conectado ao "VCC"
 
 Se vc seguir o circuito iniciando pelo sinal "VCC", passando pelo Resistor R1, depois pelo LED interno do Opto-Acoplador (terminais 1 e 2 de U1), e finalmente pelo LED "LD1", então se chega ao sinal "IN1".  Agora esqueça o restante do circuito, e se concentre nesse "caminho" que eu descrevi.
 
@@ -45,7 +46,7 @@ Claro, para que efetivamente o Relé seja acionado (quando vc acionar os LEDs) ,
 
 Logo, podemos completar a conclusão nesta "configuração":  podemos escolher o Nivel Lógico que acionará o Relé, e ainda temos isolação elétrica entre o circuito do Relé e o Arduino.  No entanto note que precisamos de uma Fonte "separada" para alimentarmos a Bobina do relé, e a tensão dessa Fonte será a mesma da Bobina do Relé, o que nos permite usar Relés com diferentes tensões da Bobina (sem estar limitado aos 5V do Arduino).
 
-## "JD-VCC" conectado ao "VCC"
+# "JD-VCC" conectado ao "VCC"
 
 A primeira implicação óbvia, é que automaticamente já não temos mais a isolação elétrica entre os dois circuitos.  A segunda, é que a tensão elétrica do sinal "VCC" será a mesma do sinal "JD-VCC".  Mas como vimos, para acionarmos a Bobina do Relé, a tensão em "JD-VCC" deve ser em relação ao sinal "GND" da plaquinha. Então por uma questão de simplificar o controle,  é conveniente que o sinal "GND" seja também conectado ao "GND" do Arduino, pois assim  tanto o "VCC" (que está agora ligado ao "JD-VCC") como o "IN1"  terão como referência uma mesma tensão (o GND do Arduino).  E se a Bobina do Relé for de 5V,  então parece conveniente também ligar o "VCC/JD-VCC" ao 5V do Arduino.  E por consequência, obrigatoriamente o "IN1" deverá ser "LOW" para acionar o Relé (como vimos no item "1"), e não há outra possibilidade, uma vez que o "VCC" está ligado ao "JD-VCC" e este último tem que ser a alimentação "positiva" para a Bobina do Relé.
 
@@ -57,7 +58,7 @@ Devido a essa corrente "alta" para módulos com vários Relés,  é comum que o 
 
 Devido às possibilidades de configuração da plaquinha do Relé,  existem também uma série de outras consequências, mas não vou adentrar para não demorar mais no texto.
 
-## No caso dessa sua placa de 8 relés
+# Módulo Relé com apenas "8 canais"
 
 acho que vc já percebeu que o Fabricante fixou definitivamente o "JD-VCC"  ao "VCC". Logo,  a primeira consequência disto é que não há mais isolação entre o Arduino e os circuitos das Bobinas dos Relés. E porque isto foi feito?   Ocorre que a maioria esmagadora das pessoas usa esses módulos de Relés com o "JD-VCC" sempre conectado ao "VCC" (ou seja, sem isolação),  e por isso o Fabricante tomou a decisão de fazer essa conexão permanente no traçado do circuito.  Claro, devido a esta falta da isolação,  vc precisa ficar atento aos "spikes" que possam ocorrer nos contatos do Relé. Sobre isto, pesquise sobre "Snubbers" que são circuitos simples usados para minimizar a intensidade e portanto o efeito dos "spikes" (e assim impedir os problemas que descrevi sobre estes).
 
