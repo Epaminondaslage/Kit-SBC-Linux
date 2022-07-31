@@ -1,5 +1,5 @@
 <td style="width: 20%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png" width="20%" /></td>
-<p><strong><span style="color: #0000ff;"> Kit SBC Linux</span></strong></p>
+<p><strong><span style="color: #0000ff;"> Módulo Chave Digital</span></strong></p>
 <p><strong><span style="color: #0000ff;">Prof Epaminondas Lage</span></strong></p>
 <a href="http://lattes.cnpq.br/7787341723868111"> Currículo Lattes LAGE, E. S.</a> 
 
@@ -11,7 +11,7 @@
 * [Introdução](#Introdução)
 * [Resistor Pull-up](#Resistor-Pull-up)
 * [Resistor Pull-down](#Resistor-Pull-down)
-* [Refências](#Referências)
+* [Referências](#Referências)
 * [Status do Projet](#-Status-do-Projeto)
 
 
@@ -53,7 +53,7 @@ Na prática, quando o botão estiver solto, o microcontrolador reconhecerá nív
 </tbody>
 </table>
 
-# Refências
+# Referências
 
 # Status do Projeto
 
