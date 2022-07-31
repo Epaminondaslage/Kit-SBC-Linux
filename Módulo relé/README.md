@@ -13,9 +13,11 @@
 * [JD-VCC não conectado ao VCC](#JD-VCC-não-conectado-ao-VCC)
 * [JD-VCC conectado ao VCC](#JD-VCC-conectado-ao-VCC)
 * [Módulo Relé com 8 canais](#Módulo-Relé-com-8-canais)
-* [Referência](#Referência)
+* [Referências](#Referências)
+* [Status do Projeto](#Status-do-Projeto)
 
 # Introdução
+
 
 # Módulo Relé com "1 canal"
 
@@ -73,7 +75,7 @@ Bem não entendi o que vc quis dizer sobre "ponte". Posso tentar imaginar que se
 Mas talvez vc esteja se referindo a uma "ponte de relés" para acionar Motores, para controle ON/OFF e da direção da rotação.  Se for isso,  vc pode também fazer sem problemas (mas não se esqueça de pesquisar sobre os "Snubbers", pois pode precisar deles).
 
 
-## Referência
+## Referências
 
 * https://labdegaragem.com/forum/topics/m-dulo-rel-8-canais-sem-jd-vcc-vcc-gnd
 * https://blog.multcomercial.com.br/o-que-e-um-rele-quais-suas-funcoes-aplicacoes/
