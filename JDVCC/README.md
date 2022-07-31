@@ -59,3 +59,7 @@ Mas talvez vc esteja se referindo a uma "ponte de relés" para acionar Motores, 
 ## Referência
 
 * https://labdegaragem.com/forum/topics/m-dulo-rel-8-canais-sem-jd-vcc-vcc-gnd
+* https://blog.multcomercial.com.br/o-que-e-um-rele-quais-suas-funcoes-aplicacoes/
+* https://www.filipeflop.com/blog/controle-modulo-rele-arduino/
+
+* 
