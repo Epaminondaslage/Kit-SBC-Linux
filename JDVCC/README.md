@@ -9,10 +9,10 @@
 # Índice 
 
 * [Introdução](#Introdução)
-* [Módulo Relé com apenas "1 canal"](#Módulo-Relé-com-apenas-"1 canal")
-* ["JD-VCC" não conectado ao "VCC"](#"JD-VCC"-não-conectado-ao-"VCC")
-* ["JD-VCC" conectado ao "VCC"](#"JD-VCC"-conectado-ao-"VCC")
-* [Módulo Relé com apenas "8 canais"](#Módulo-Relé-com-apenas-"8 canais")
+* [Módulo Relé com apenas 1 canal](#Módulo-Relé-com-apenas-1-canal)
+* [JD-VCC não conectado ao VCC](#JD-VCC-não-conectado-ao-VCC)
+* [JD-VCC conectado ao VCC](#JD-VCC-conectado-ao-VCC)
+* [Módulo Relé com 8 canais"](#Módulo-Relé-com-8-canais")
 * [Referência](#Referência)
 
 # Introdução
@@ -58,7 +58,7 @@ Devido a essa corrente "alta" para módulos com vários Relés,  é comum que o 
 
 Devido às possibilidades de configuração da plaquinha do Relé,  existem também uma série de outras consequências, mas não vou adentrar para não demorar mais no texto.
 
-# Módulo Relé com apenas "8 canais"
+# Módulo Relé com 8 canais
 
 acho que vc já percebeu que o Fabricante fixou definitivamente o "JD-VCC"  ao "VCC". Logo,  a primeira consequência disto é que não há mais isolação entre o Arduino e os circuitos das Bobinas dos Relés. E porque isto foi feito?   Ocorre que a maioria esmagadora das pessoas usa esses módulos de Relés com o "JD-VCC" sempre conectado ao "VCC" (ou seja, sem isolação),  e por isso o Fabricante tomou a decisão de fazer essa conexão permanente no traçado do circuito.  Claro, devido a esta falta da isolação,  vc precisa ficar atento aos "spikes" que possam ocorrer nos contatos do Relé. Sobre isto, pesquise sobre "Snubbers" que são circuitos simples usados para minimizar a intensidade e portanto o efeito dos "spikes" (e assim impedir os problemas que descrevi sobre estes).
 
@@ -83,17 +83,3 @@ Mas talvez vc esteja se referindo a uma "ponte de relés" para acionar Motores, 
 # Status do Projeto
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
-
-
-
-
-
-
-
-
-
-# 
-
-
-* 
