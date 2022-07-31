@@ -21,7 +21,7 @@
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/Epaminondaslage/Kit-SBC-Linux/blob/main/M%C3%B3dulo%20rel%C3%A9/img/rele.png" alt="" width="40%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="img/rele.png" alt="" width="30%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 1: Diagrama interno de um relé.</td>
@@ -37,7 +37,7 @@ Na figura,  vc pode observar que a sequência dos sinais no Circuito, foi altera
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="img/JD-vcc.png" alt="" width="40%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="img/JD-vcc.png" alt="" width="60%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 2: Diagrama elétrico do módulo.</td>
