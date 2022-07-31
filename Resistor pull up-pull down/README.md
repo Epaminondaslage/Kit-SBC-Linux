@@ -9,7 +9,7 @@ Na prática, quando o botão estiver solto, o microcontrolador reconhecerá nív
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="Resistor pull up-pull down/img/Pull-up.jpg" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/Resistor pull up-pull down/img/pull-up.jpg" alt="" width="80%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 1: Resistor de Pull-Up.</td>
