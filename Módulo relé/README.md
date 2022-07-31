@@ -17,7 +17,7 @@
 
 Relés são componentes atuam como interruptores, acionando ou parando a ação de um circuito por meio da (re)transmissão de corrente elétrica. Por isolar sinais, é muito útil para a segurança de um circuito. Relés são ativados por correntes elétricas bem inferiores àquelas empregadas no circuito principal, que pode ser controlado por componentes como transistores e fotoresistores. Assim, não é necessário operar com cargas elevadas.
 
-Tipicamente, um relé de constituição muito básica apresenta uma bobina, um circuito magnético e alguns contatos: contato central, contato normalmente aberto e contato normalmente fechado. A Figura 1 apresenta suas partes constituintes. No nosso Kit iremos operar com um módulo de 8 relés, o qual jé é construido para orerar em faixas de tensão e modos de operação que vamos descrever a seguir.
+Tipicamente, um relé de constituição muito básica apresenta uma bobina, um circuito magnético e alguns contatos: contato central, contato normalmente aberto e contato normalmente fechado. A figura 1 apresenta suas partes constituintes. No nosso Kit iremos operar com um módulo de 8 relés, o qual jé é construido para orerar em faixas de tensão e modos de operação que vamos descrever a seguir.
 
 <table border="0">
 <tbody>
@@ -33,7 +33,7 @@ Tipicamente, um relé de constituição muito básica apresenta uma bobina, um c
 
 # Módulo Relé com "1 canal"
 
-Na figura,  vc pode observar que a sequência dos sinais no Circuito, foi alterada. A sequência dos pinos está ao lado da "foto" do módulo Relé,  sendo os pinos numerados de 1 a 5.  Mas esta numeração não é importante. O importante são os sinais em si, e no Circuito eu alterei esta sequência apenas para para facilitar o entendimento do funcionamento.
+Na figura 2,  vc pode observar que a sequência dos sinais no Circuito, foi alterada. A sequência dos pinos está ao lado da "foto" do módulo Relé,  sendo os pinos numerados de 1 a 5.  Mas esta numeração não é importante. O importante são os sinais em si, e no Circuito eu alterei esta sequência apenas para para facilitar o entendimento do funcionamento.
 
 <table border="0">
 <tbody>
