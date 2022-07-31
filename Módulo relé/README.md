@@ -18,6 +18,7 @@
 
 # Introdução
 
+ Kit-SBC-Linux/Módulo relé/img/rele.png 
 
 # Módulo Relé com "1 canal"
 
