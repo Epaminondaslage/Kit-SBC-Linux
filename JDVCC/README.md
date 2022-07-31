@@ -12,7 +12,7 @@
 * [Módulo Relé com 1 canal](#Módulo-Relé-com-1-canal)
 * [JD-VCC não conectado ao VCC](#JD-VCC-não-conectado-ao-VCC)
 * [JD-VCC conectado ao VCC](#JD-VCC-conectado-ao-VCC)
-* [Módulo Relé com 8 canais"](#Módulo-Relé-com-8-canais)
+* [Módulo Relé com 8 canais](#Módulo-Relé-com-8-canais)
 * [Referência](#Referência)
 
 # Introdução
