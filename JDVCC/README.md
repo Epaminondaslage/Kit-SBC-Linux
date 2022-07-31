@@ -1,4 +1,20 @@
-# Jump JD-VCC
+<td style="width: 20%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png" width="20%" /></td>
+<p><strong><span style="color: #0000ff;"> Jump JD-VCC</span></strong></p>
+<p><strong><span style="color: #0000ff;">Prof Epaminondas Lage</span></strong></p>
+<a href="http://lattes.cnpq.br/7787341723868111"> Currículo Lattes LAGE, E. S.</a> 
+
+
+<td style="width: 15%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/em%20constru%C3%A7%C3%A3o.jpg" width="15%" /></td>
+
+# Índice 
+
+* [Introdução](#Introdução)
+* [Módulo Relé com apenas "1 canal"](#Módulo-Relé-com-apenas-"1 canal")
+* ["JD-VCC" não conectado ao "VCC"](#"JD-VCC"-não-conectado-ao-"VCC")
+* [Introdução](#Introdução)
+* [Referência](#Referência)
+
+# Introdução
 
 ## Módulo Relé com apenas "1 canal"
 
@@ -61,5 +77,22 @@ Mas talvez vc esteja se referindo a uma "ponte de relés" para acionar Motores, 
 * https://labdegaragem.com/forum/topics/m-dulo-rel-8-canais-sem-jd-vcc-vcc-gnd
 * https://blog.multcomercial.com.br/o-que-e-um-rele-quais-suas-funcoes-aplicacoes/
 * https://www.filipeflop.com/blog/controle-modulo-rele-arduino/
+
+
+# Status do Projeto
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+
+
+
+
+
+
+
+
+
+# 
+
 
 * 
