@@ -1,4 +1,4 @@
-# resistor pull-down /pull-up
+# Resistor Pull-down / Pull-up
 
 # Pull-up
 
