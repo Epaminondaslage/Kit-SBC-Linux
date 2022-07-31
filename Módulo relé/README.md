@@ -21,7 +21,7 @@
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/Kit-SBC-Linux/Módulo relé/img/rele.png " alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/Epaminondaslage/Kit-SBC-Linux/blob/main/M%C3%B3dulo%20rel%C3%A9/img/rele.png" alt="" width="40%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 1: Diagrama interno de um relé.</td>
