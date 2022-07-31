@@ -1,2 +1,1 @@
-# Kit-SBC-Linux
-Kit SBC Linux
+# resistor pull-down /pull-up
