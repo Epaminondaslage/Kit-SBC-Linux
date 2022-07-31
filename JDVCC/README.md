@@ -1,2 +1,1 @@
-# Kit-SBC-Linux
-Kit SBC Linux
+# Jump JDVCC
