@@ -9,15 +9,15 @@
 # Índice 
 
 * [Introdução](#Introdução)
-* [Módulo Relé com apenas 1 canal](#Módulo-Relé-com-apenas-1-canal)
+* [Módulo Relé com 1 canal](#Módulo-Relé-com-1-canal)
 * [JD-VCC não conectado ao VCC](#JD-VCC-não-conectado-ao-VCC)
 * [JD-VCC conectado ao VCC](#JD-VCC-conectado-ao-VCC)
-* [Módulo Relé com 8 canais"](#Módulo-Relé-com-8-canais")
+* [Módulo Relé com 8 canais"](#Módulo-Relé-com-8-canais)
 * [Referência](#Referência)
 
 # Introdução
 
-# Módulo Relé com apenas "1 canal"
+# Módulo Relé com "1 canal"
 
 Na figura,  vc pode observar que a sequência dos sinais no Circuito, foi alterada. A sequência dos pinos está ao lado da "foto" do módulo Relé,  sendo os pinos numerados de 1 a 5.  Mas esta numeração não é importante. O importante são os sinais em si, e no Circuito eu alterei esta sequência apenas para para facilitar o entendimento do funcionamento.
 
