@@ -1,18 +1,23 @@
-# Jump JDVCC
+# Jump JD-VCC
 
-Mas antes peço que olhe um Diagrama do Circuito de um daqueles módulos que vc disse ter o sinal "JD-VCC".  Para simplificar, vamos considerar o módulo Relé com apenas "1 canal". O Diagrama está na figura a seguir:
+## Módulo Relé com apenas "1 canal"
 
 Na figura,  vc pode observar que a sequência dos sinais no Circuito, foi alterada. A sequência dos pinos está ao lado da "foto" do módulo Relé,  sendo os pinos numerados de 1 a 5.  Mas esta numeração não é importante. O importante são os sinais em si, e no Circuito eu alterei esta sequência apenas para para facilitar o entendimento do funcionamento.
 
+<p><img src="jd-vcc.png" alt="" width="400" height="300" /></p>
+
 Vamos considerar 2 cenários: um onde o "JD-VCC" não está conectado ao "VCC", e um onde o "JD-VCC" está conectado ao "VCC" (via "jumper" encaixado nos dois terminais no conector). Então segue:
 
-1)  "JD-VCC" não conectado ao "VCC":   se vc seguir o circuito iniciando pelo sinal "VCC", passando pelo Resistor R1, depois pelo LED interno do Opto-Acoplador (terminais 1 e 2 de U1), e finalmente pelo LED "LD1", então se chega ao sinal "IN1".  Agora esqueça o restante do circuito, e se concentre nesse "caminho" que eu descrevi.
+## "JD-VCC" não conectado ao "VCC"
+
+Se vc seguir o circuito iniciando pelo sinal "VCC", passando pelo Resistor R1, depois pelo LED interno do Opto-Acoplador (terminais 1 e 2 de U1), e finalmente pelo LED "LD1", então se chega ao sinal "IN1".  Agora esqueça o restante do circuito, e se concentre nesse "caminho" que eu descrevi.
 
 Se vc ligar o sinal "VCC" ao 5V do Arduino, e o sinal "IN1" a um pino de saída do Arduino,  então tanto o LED do Opto-Acoplador, como o LED LD1 serão acionados quando se tem "LOW" no sinal "IN1",  e caso tenhamos "HIGH" em "IN1" então ambos os LEDs ficarão desacionados.  Assim dizemos que o acionamento é através do Nivel "LOW" (ou "0" se preferir).
 
 Agora considere ligar o sinal "VCC" a um pino de saída do Arduino,  e o sinal "IN1" ao  GND do Arduino (NÃO é o GND da plaquinha do Relé!!!).  Nesta condição, para que os LEDs sejam acionados,  é necessário que tenhamos "HIGH" na saída do Arduino,  e caso tenhamos "LOW" os LEDs estarão desacionados.
 
-Conclusão:  o sinal "VCC" é apenas o nome que deram ao sinal, mas de fato vc deve encará-lo apenas como o sinal que está ligado (via R1) ao "Anodo" do Opto-Acoplador (terminal 1 de U1).  Assim, para que os LEDs sejam acionados,  é preciso que este terminal tenha uma tensão elétrica positiva em relação ao sinal "IN1".  Logo, se vc fixa o sinal "VCC"  em 5V (do Arduino), então obrigatoriamente para acionar os LEDs,  "IN1" deverá ser "LOW".  Já se vc fixa o sinal "VCC" em 0V (o GND do Arduino), obrigatoriamente para acionar os LEDs "IN1" deverá ser "HIGH". Não tem outra forma.
+Conclusão
+O sinal "VCC" é apenas o nome que deram ao sinal, mas de fato vc deve encará-lo apenas como o sinal que está ligado (via R1) ao "Anodo" do Opto-Acoplador (terminal 1 de U1).  Assim, para que os LEDs sejam acionados,  é preciso que este terminal tenha uma tensão elétrica positiva em relação ao sinal "IN1".  Logo, se vc fixa o sinal "VCC"  em 5V (do Arduino), então obrigatoriamente para acionar os LEDs,  "IN1" deverá ser "LOW".  Já se vc fixa o sinal "VCC" em 0V (o GND do Arduino), obrigatoriamente para acionar os LEDs "IN1" deverá ser "HIGH". Não tem outra forma.
 
 Então observe, que vc pode escolher qual será o Nível Lógico ("LOW" ou "HIGH") que acionará o circuito, o que é portanto 100% flexível em relação a esta escolha do Nivel Lógico.  E claro:  o sinal "VCC" na plaquinha é apenas o nome que deram, e não significa que vc deve ligá-lo ao VCC do Arduino (5V). Obviamente, a escolha do nome "VCC" para o sinal, não foi muito feliz.
 
@@ -24,7 +29,9 @@ Claro, para que efetivamente o Relé seja acionado (quando vc acionar os LEDs) ,
 
 Logo, podemos completar a conclusão nesta "configuração":  podemos escolher o Nivel Lógico que acionará o Relé, e ainda temos isolação elétrica entre o circuito do Relé e o Arduino.  No entanto note que precisamos de uma Fonte "separada" para alimentarmos a Bobina do relé, e a tensão dessa Fonte será a mesma da Bobina do Relé, o que nos permite usar Relés com diferentes tensões da Bobina (sem estar limitado aos 5V do Arduino).
 
-2)  "JD-VCC" conectado ao "VCC":  a primeira implicação óbvia, é que automaticamente já não temos mais a isolação elétrica entre os dois circuitos.  A segunda, é que a tensão elétrica do sinal "VCC" será a mesma do sinal "JD-VCC".  Mas como vimos, para acionarmos a Bobina do Relé, a tensão em "JD-VCC" deve ser em relação ao sinal "GND" da plaquinha. Então por uma questão de simplificar o controle,  é conveniente que o sinal "GND" seja também conectado ao "GND" do Arduino, pois assim  tanto o "VCC" (que está agora ligado ao "JD-VCC") como o "IN1"  terão como referência uma mesma tensão (o GND do Arduino).  E se a Bobina do Relé for de 5V,  então parece conveniente também ligar o "VCC/JD-VCC" ao 5V do Arduino.  E por consequência, obrigatoriamente o "IN1" deverá ser "LOW" para acionar o Relé (como vimos no item "1"), e não há outra possibilidade, uma vez que o "VCC" está ligado ao "JD-VCC" e este último tem que ser a alimentação "positiva" para a Bobina do Relé.
+## "JD-VCC" conectado ao "VCC"
+
+A primeira implicação óbvia, é que automaticamente já não temos mais a isolação elétrica entre os dois circuitos.  A segunda, é que a tensão elétrica do sinal "VCC" será a mesma do sinal "JD-VCC".  Mas como vimos, para acionarmos a Bobina do Relé, a tensão em "JD-VCC" deve ser em relação ao sinal "GND" da plaquinha. Então por uma questão de simplificar o controle,  é conveniente que o sinal "GND" seja também conectado ao "GND" do Arduino, pois assim  tanto o "VCC" (que está agora ligado ao "JD-VCC") como o "IN1"  terão como referência uma mesma tensão (o GND do Arduino).  E se a Bobina do Relé for de 5V,  então parece conveniente também ligar o "VCC/JD-VCC" ao 5V do Arduino.  E por consequência, obrigatoriamente o "IN1" deverá ser "LOW" para acionar o Relé (como vimos no item "1"), e não há outra possibilidade, uma vez que o "VCC" está ligado ao "JD-VCC" e este último tem que ser a alimentação "positiva" para a Bobina do Relé.
 
 Conclusão: além de perdermos a isolação entre os dois Circuitos (Arduino e acionamento da Bobina do Relé),  também não temos escolha em relação do Nível Lógico que liga o Relé, que agora deve ser obrigatoriamente "LOW".  Qual a vantagem então?  apenas uma:  vc não precisa de uma Fonte "separada" para acionar a Bobina do relé,  pois está aproveitando o 5V do Arduino para fazer isso, mas claro que agora também terá obrigatoriamente que usar Relés com Bobina de 5V (mas isto pode ser contornado se vc ao invés de ligar o "IN1" ao Arduino, usar um Transistor entre o Arduino e o "IN1").
 
@@ -34,9 +41,9 @@ Devido a essa corrente "alta" para módulos com vários Relés,  é comum que o 
 
 Devido às possibilidades de configuração da plaquinha do Relé,  existem também uma série de outras consequências, mas não vou adentrar para não demorar mais no texto.
 
-================================================================
+## No caso dessa sua placa de 8 relés
 
-No caso dessa sua placa de 8 relés,  acho que vc já percebeu que o Fabricante fixou definitivamente o "JD-VCC"  ao "VCC". Logo,  a primeira consequência disto é que não há mais isolação entre o Arduino e os circuitos das Bobinas dos Relés. E porque isto foi feito?   Ocorre que a maioria esmagadora das pessoas usa esses módulos de Relés com o "JD-VCC" sempre conectado ao "VCC" (ou seja, sem isolação),  e por isso o Fabricante tomou a decisão de fazer essa conexão permanente no traçado do circuito.  Claro, devido a esta falta da isolação,  vc precisa ficar atento aos "spikes" que possam ocorrer nos contatos do Relé. Sobre isto, pesquise sobre "Snubbers" que são circuitos simples usados para minimizar a intensidade e portanto o efeito dos "spikes" (e assim impedir os problemas que descrevi sobre estes).
+acho que vc já percebeu que o Fabricante fixou definitivamente o "JD-VCC"  ao "VCC". Logo,  a primeira consequência disto é que não há mais isolação entre o Arduino e os circuitos das Bobinas dos Relés. E porque isto foi feito?   Ocorre que a maioria esmagadora das pessoas usa esses módulos de Relés com o "JD-VCC" sempre conectado ao "VCC" (ou seja, sem isolação),  e por isso o Fabricante tomou a decisão de fazer essa conexão permanente no traçado do circuito.  Claro, devido a esta falta da isolação,  vc precisa ficar atento aos "spikes" que possam ocorrer nos contatos do Relé. Sobre isto, pesquise sobre "Snubbers" que são circuitos simples usados para minimizar a intensidade e portanto o efeito dos "spikes" (e assim impedir os problemas que descrevi sobre estes).
 
 Mas vc deve se lembrar que quando o "JD-VCC" é conectado ao "VCC", não temos a opção de escolher o Nível Lógico que aciona os Relés.  Ocorre que pra não perder esse "feature",  o Fabricante da placa mudou ligeiramente o circuito que aciona o LED do Opto-Acoplador,  de uma forma que agora vc consegue selecionar para cada Relé,  qual o Nível Lógico de acionamento. E isto é feito naqueles pontos com "jumpers" selecionando "HIGH" ou "LOW", existentes na Placa. Apenas isso.  Assim respondendo à sua última pergunta:  isto não tem  relação com "sobrecarga" no Arduino.  É apenas uma seleção da lógica de acionamento.
 
@@ -47,3 +54,8 @@ Como vc deve imaginar pelas explanações que postei aqui,  o que vc descreveu s
 Bem não entendi o que vc quis dizer sobre "ponte". Posso tentar imaginar que seria ligar direto com fio (sem usar os "jumpers") para fazer a seleção "HIGH" ou "LOW" para cada Rele.  Mas não sei se é isto que vc quis dizer.  Se for isso,  então vc pode sim fazer a tal "ponte".
 
 Mas talvez vc esteja se referindo a uma "ponte de relés" para acionar Motores, para controle ON/OFF e da direção da rotação.  Se for isso,  vc pode também fazer sem problemas (mas não se esqueça de pesquisar sobre os "Snubbers", pois pode precisar deles).
+
+
+## Referência
+
+* https://labdegaragem.com/forum/topics/m-dulo-rel-8-canais-sem-jd-vcc-vcc-gnd
