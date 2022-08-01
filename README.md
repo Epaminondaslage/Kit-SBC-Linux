@@ -74,7 +74,7 @@ A figura 3 apresenta o kit SBC Linux com os dispositivos eletrônicos montados s
 
 # GPIO
 
-Existem duas maneiras de controlar e configurar os pinos GPIO. A primeira é usar uma biblioteca apropriada (C, C++, Python ou outra linguagem de programação) e a segunda é controlar GPIO do Shell de usuário do Linux.
+Existem duas maneiras de controlar e configurar os pinos GPIO. A primeira é usar uma biblioteca apropriada (C, C++, Python ou outra linguagem de programação) e a segunda é controlar GPIO do Shell de usuário do Linux. Maiores informações podem ser obtitos no  <p><a href="https://github.com/orangepi-xunlong">Github da Orange Pi</a></p>.
 
     +------+-----+----------+------+---+OrangePiH3+---+------+----------+-----+------+
     | GPIO | wPi |   Name   | Mode | V | Physical | V | Mode | Name     | wPi | GPIO |
