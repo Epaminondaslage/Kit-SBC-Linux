@@ -3,9 +3,6 @@
 <p><strong><span style="color: #0000ff;">Prof Epaminondas Lage</span></strong></p>
 <a href="http://lattes.cnpq.br/7787341723868111"> Currículo Lattes LAGE, E. S.</a> 
 
-
-<td style="width: 15%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/em%20constru%C3%A7%C3%A3o.jpg" width="15%" /></td>
-
 # Índice 
 
 * [Introdução](#Introdução)
@@ -13,15 +10,41 @@
 * [JD-VCC não conectado ao VCC](#JD-VCC-não-conectado-ao-VCC)
 * [JD-VCC conectado ao VCC](#JD-VCC-conectado-ao-VCC)
 * [Módulo Relé com 8 canais](#Módulo-Relé-com-8-canais)
-* [Referência](#Referência)
+* [Referências](#Referências)
+* [Status do Projeto](#Status-do-Projeto)
 
 # Introdução
 
+Relés são componentes atuam como interruptores, acionando ou parando a ação de um circuito por meio da (re)transmissão de corrente elétrica. Por isolar sinais, é muito útil para a segurança de um circuito. Relés são ativados por correntes elétricas bem inferiores àquelas empregadas no circuito principal, que pode ser controlado por componentes como transistores e fotoresistores. Assim, não é necessário operar com cargas elevadas.
+
+Tipicamente, um relé de constituição muito básica apresenta uma bobina, um circuito magnético e alguns contatos: contato central, contato normalmente aberto e contato normalmente fechado. A figura 1 apresenta suas partes constituintes. No nosso Kit iremos operar com um módulo de 8 relés, o qual jé é construido para orerar em faixas de tensão e modos de operação que vamos descrever a seguir.
+
+<table border="0">
+<tbody>
+<tr>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="img/rele.png" alt="" width="30%" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">Figura 1: Diagrama interno de um relé.</td>
+</tr>
+</tbody>
+</table>
+ 
+
 # Módulo Relé com "1 canal"
 
-Na figura,  vc pode observar que a sequência dos sinais no Circuito, foi alterada. A sequência dos pinos está ao lado da "foto" do módulo Relé,  sendo os pinos numerados de 1 a 5.  Mas esta numeração não é importante. O importante são os sinais em si, e no Circuito eu alterei esta sequência apenas para para facilitar o entendimento do funcionamento.
+Na figura 2,  vc pode observar que a sequência dos sinais no Circuito, foi alterada. A sequência dos pinos está ao lado da "foto" do módulo Relé,  sendo os pinos numerados de 1 a 5.  Mas esta numeração não é importante. O importante são os sinais em si, e no Circuito eu alterei esta sequência apenas para para facilitar o entendimento do funcionamento.
 
-<p><img src="img/JD-vcc.png" alt="" width="400" height="300" /></p>
+<table border="0">
+<tbody>
+<tr>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="img/JD-vcc.png" alt="" width="60%" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">Figura 2: Diagrama elétrico do módulo.</td>
+</tr>
+</tbody>
+</table>
 
 Vamos considerar 2 cenários: um onde o "JD-VCC" não está conectado ao "VCC", e um onde o "JD-VCC" está conectado ao "VCC" (via "jumper" encaixado nos dois terminais no conector). Então segue:
 
@@ -73,7 +96,7 @@ Bem não entendi o que vc quis dizer sobre "ponte". Posso tentar imaginar que se
 Mas talvez vc esteja se referindo a uma "ponte de relés" para acionar Motores, para controle ON/OFF e da direção da rotação.  Se for isso,  vc pode também fazer sem problemas (mas não se esqueça de pesquisar sobre os "Snubbers", pois pode precisar deles).
 
 
-## Referência
+## Referências
 
 * https://labdegaragem.com/forum/topics/m-dulo-rel-8-canais-sem-jd-vcc-vcc-gnd
 * https://blog.multcomercial.com.br/o-que-e-um-rele-quais-suas-funcoes-aplicacoes/
