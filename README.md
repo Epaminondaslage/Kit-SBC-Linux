@@ -46,7 +46,7 @@ Veja as principais características do Orange Pi One:
     
 # O Kit SBC Linux
 
-A base de sustentação para as placas foi desenvovolvida construida em uma impressora 3D. Possui dimensões de 245x180x15 mm e possui um slot para o OrangePi One, uma placa de conexões, um módulo de 8 relés e um módulo de 5 push-botons conforpe apresenta a figura 2. 
+A base de sustentação para as placas foi desenvovolvida construida em uma impressora 3D. Possui dimensões de 245x180x15 mm e possui um slot para o OrangePi One, uma placa de conexões, um módulo de 8 relés e um módulo de 5 push-botons é apresentado pela figura 2. 
 
 <table border="0">
 <tbody>
