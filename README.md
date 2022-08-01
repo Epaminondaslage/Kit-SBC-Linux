@@ -21,7 +21,7 @@ O coração do Kit SBC Linux é o OrangePi One. O Orange Pi, que é mais uma SBC
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/orangepionecabo.jpeg" alt="" width="40%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/orangepionecabo.jpg" alt="" width="40%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 1: OrangePi One.</td>
@@ -51,7 +51,7 @@ A base de sustentação para as placas foi desenvovolvida construida em uma impr
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/base_kit1.jpeg" alt="" width="40%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/base_kit.jpeg" alt="" width="40%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 2: Impressão 3D do Kit SBC Linux.</td>
