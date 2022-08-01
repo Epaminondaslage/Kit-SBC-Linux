@@ -115,7 +115,7 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/Espansão40pinos.png" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/Espansao40pinos.png" alt="" width="80%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 5: Espansão do conector de 40 pinos .</td>
@@ -127,7 +127,7 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/Módulorelé.png" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/modulorele" alt="" width="80%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 6: Módulo relé.</td>
@@ -140,10 +140,10 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/Módulochavedigital.png" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/modulochave.jpg" alt="" width="80%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 4: Módulo chave digital.</td>
+<td style="text-align: center;">Figura 7: Módulo chave.</td>
 </tr>
 </tbody>
 </table>
