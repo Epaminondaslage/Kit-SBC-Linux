@@ -154,7 +154,7 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/modulorele" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/modulorele.jpg" alt="" width="80%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 6: Módulo relé.</td>
@@ -167,7 +167,7 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/modulochave.jpg" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/modulochave.jpg" alt="" width="40%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 7: Módulo chave.</td>
