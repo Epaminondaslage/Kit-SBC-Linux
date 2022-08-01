@@ -10,7 +10,7 @@
 * [Sistema Operacional](#Sistema-Operacional)
 * [Espansão do conector de 40 pinos](#Espansão-do-conector-de-40-pinos)
 * [Módulo relé](#Módulo-Relé)
-* [Módulo chave digital](#Módulo-chave-digital)
+* [Módulo botão](#Módulo-botão)
 * [Status do Projeto](#Status-do-Projeto) 
 * [Referências](#Referências)
 
@@ -194,7 +194,7 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 
 <p>Informa&ccedil;&otilde;es de funcionamento deste m&oacute;dulo pode ser encontradas <a href="https://github.com/Epaminondaslage/Kit-SBC-Linux/tree/main/M%C3%B3dulo%20rel%C3%A9">aqui</a>.</p>
 
-# Módulo chave digital
+# Módulo botão
 
 Este Módulo desenvolvido em montagens experimentais em protoboard, ele vem com pinos +VCC,out,GND e capa colorida para facilitar o manuseio. Apresenta
 as seguintes características:
@@ -217,7 +217,7 @@ as seguintes características:
 </tbody>
 </table>
 
-<p>Informa&ccedil;&otilde;es de funcionamento deste m&oacute;dulo pode ser encontradas <a href="https://github.com/Epaminondaslage/Kit-SBC-Linux/tree/main/M%C3%B3dulo-chave">aqui</a>.</p>
+<p>Informa&ccedil;&otilde;es de funcionamento deste m&oacute;dulo pode ser encontradas <a href="https://github.com/Epaminondaslage/Kit-SBC-Linux/tree/main/Módulobotão">aqui</a>.</p>
 
 # Status do Projeto
 
