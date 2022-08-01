@@ -130,7 +130,7 @@ A segunda maneira de gerenciar os pinos GPIO é usando os comandos do Shell Scri
 
 # Sistema Operacional 
 
-Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Script e o Debian para a instalação do OpenPLC runtime. Veja como intalar as duas distribuições.
+Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Script e o Debian para a instalação do OpenPLC runtime. Veja como instalar as duas distribuições utilizadas.
 
 ## Repositórios Disponíveis
 
