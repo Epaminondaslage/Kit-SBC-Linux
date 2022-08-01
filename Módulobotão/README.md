@@ -1,23 +1,16 @@
 <td style="width: 20%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png" width="20%" /></td>
-<p><strong><span style="color: #0000ff;"> Módulo Chave Digital</span></strong></p>
+<p><strong><span style="color: #0000ff;"> Módulo Botão</span></strong></p>
 <p><strong><span style="color: #0000ff;">Prof Epaminondas Lage</span></strong></p>
 <a href="http://lattes.cnpq.br/7787341723868111"> Currículo Lattes LAGE, E. S.</a> 
 
-
-<td style="width: 15%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/em%20constru%C3%A7%C3%A3o.jpg" width="15%" /></td>
-
 # Índice 
 
-* [Introdução](#Introdução)
 * [Resistor Pull-up](#Resistor-Pull-up)
 * [Resistor Pull-down](#Resistor-Pull-down)
 * [Referências](#Referências)
 * [Status do Projet](#-Status-do-Projeto)
 
-
-# Introdução
-
-
+Se o pino do microcontrolador não estiver conectado a nada, ele pode entender tanto HIGH como LOW (e isso pode mudar aleatoriamente). Assim sendo não conseguimos detectar um mero estado de botão com confiabilidade. Para contornar o problema, utilizaremos resistores nas configurações Pull-up/Pull-down.
 
 # Resistor Pull-up
 
@@ -28,7 +21,7 @@ Na prática, quando o botão estiver solto, o microcontrolador reconhecerá nív
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/Epaminondaslage/Kit-SBC-Linux/blob/main/M%C3%B3dulo-chave-digital/img/pull-up.jpg" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/Epaminondaslage/Kit-SBC-Linux/blob/main/M%C3%B3dulobot%C3%A3o/img/pull-up.jpg" alt="" width="80%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 1: Resistor de Pull-Up.</td>
@@ -45,7 +38,7 @@ Na prática, quando o botão estiver solto, o microcontrolador reconhecerá nív
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/Epaminondaslage/Kit-SBC-Linux/blob/main/M%C3%B3dulo-chave-digital/img/Pull-down.jpg" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/Epaminondaslage/Kit-SBC-Linux/blob/main/M%C3%B3dulobot%C3%A3o/img/Pull-down.jpg" alt="" width="80%" /></td>
 </tr>
 <tr>
 <td style="text-align: center;">Figura 2: Resistor de Pull-down.</td>
@@ -54,6 +47,8 @@ Na prática, quando o botão estiver solto, o microcontrolador reconhecerá nív
 </table>
 
 # Referências
+
+* https://blog.eletrogate.com/entendendo-os-resistores-de-pull-up-e-pull-down/?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN22xGMaY3AThOyW9cVYgKx-9HBHwOiBQLjScbkCeFj_dYLZKObz_tsaAlayEALw_wcB
 
 # Status do Projeto
 

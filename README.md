@@ -46,7 +46,7 @@ Veja as principais características do Orange Pi One:
     
 # O Kit SBC Linux
 
-A base de sustentação para as placas foi desenvovolvida construida em uma impressora 3D. Possui dimensões de 245x180x15 mm e possui um slot para o OrangePi One, uma placa de conexões, um módulo de 8 relés e um módulo de 5 push-botons conforpe apresenta a figura 2. 
+A base de sustentação para as placas foi desenvovolvida construida em uma impressora 3D. Possui dimensões de 245x180x15 mm e possui um slot para o OrangePi One, uma placa de conexões, um módulo de 8 relés e um módulo de 5 push-botons é apresentado pela figura 2. 
 
 <table border="0">
 <tbody>
@@ -130,27 +130,33 @@ A segunda maneira de gerenciar os pinos GPIO é usando os comandos do Shell Scri
 
 # Sistema Operacional 
 
-Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Script e o Debian para a instalação do OpenPLC runtime. Veja como intalar as duas distribuições.
+Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Script e o Debian para a instalação do OpenPLC runtime. Veja como instalar as duas distribuições utilizadas.
 
 ## Repositórios Disponíveis
 
 * <a href="https://github.com/Epaminondaslage/SO_Ubuntu_SBC_OrangePI">SO Ubuntu SBC OrangePI</a> 
 * <a href="https://github.com/Epaminondaslage/SO-Debian-SBC-OrangePI">SO Debian SBC OrangePI</a> 
 
-# Espansão do conector de 40 pinos
+# Expansão do conector de 40 pinos
+
+A Placa de Expansão de GPIO - 40 Pinos é a solução ideal para expandir a utilização dos pinos de GPIO da Rasbeprry, podendo extender a conexao de 40 pinos, sendo compatível com os modelos de raspberry/orangePI.
+
+O módulo em tipo T facilita a conexão dos GPIO a uma protoboard, permitindo a prototipagem rápida durante o desenvolvimento de circuitos eletrônicos.
 
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/Espansao40pinos.png" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/placaexpansao.jpg" alt="" width="40%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 5: Espansão do conector de 40 pinos .</td>
+<td style="text-align: center;">Figura 5: Expansão do conector de 40 pinos .</td>
 </tr>
 </tbody>
 </table>
 
 # Módulo relé
+
+Relés são componentes atuam como interruptores, acionando ou parando a ação de um circuito por meio da (re)transmissão de corrente elétrica. Por isolar sinais, é muito útil para a segurança de um circuito. Relés são ativados por correntes elétricas bem inferiores àquelas empregadas no circuito principal, que pode ser controlado por componentes como transistores e fotoresistores. Assim, não é necessário operar com cargas elevadas.
 
     * Descrição do produto: Módulo de relé de 8 canais
     Carga máxima: AC 250V/10A, DC 30V/10A
