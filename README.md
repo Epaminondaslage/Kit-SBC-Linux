@@ -152,6 +152,8 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 
 # Módulo relé
 
+Relés são componentes atuam como interruptores, acionando ou parando a ação de um circuito por meio da (re)transmissão de corrente elétrica. Por isolar sinais, é muito útil para a segurança de um circuito. Relés são ativados por correntes elétricas bem inferiores àquelas empregadas no circuito principal, que pode ser controlado por componentes como transistores e fotoresistores. Assim, não é necessário operar com cargas elevadas.
+
     * Descrição do produto: Módulo de relé de 8 canais
     Carga máxima: AC 250V/10A, DC 30V/10A
     Corrente de gatilho: 5mA
