@@ -151,6 +151,36 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 </table>
 
 # Módulo relé
+
+    * Descrição do produto: Módulo de relé de 8 canais
+    Carga máxima: AC 250V/10A, DC 30V/10A
+    Corrente de gatilho: 5mA
+    Tensão de trabalho: 3,3V
+    Tamanho do módulo: 50 x 26 x 18,5 mm (C x L x A)
+    Quatro furos de parafusos de montagem, diâmetro 3,1 mm
+    Dc+: fonte de alimentação positiva (VCC)
+    Dc-: fonte de alimentação negativa (GND)
+    In: pode ser relé de controle de alto ou baixo nível
+    Na: interface de relé normalmente aberta
+    Com: Relés da Interface comum
+    Nc: interface de relé fechada normalmente
+    Dimensões: 135mm (comprimento) * 53mm (L) * 18,5 (A)
+    Peso:. 31g 
+    Cor do PCB: azul
+    8 optoaclopladores e anti-jamming 
+    Acionamento com sinal baixo. LED indicadore de status de funcionamento. 
+    Vcc da energia do sistema. Entrada de energia do relé de fonte de alimentação separada do JD-VCC. Você pode conectar jampers 
+    
+    * Parâmetros elétricos: 
+    Tensão de fornecimento: 3,3VDC 
+    Corrente: maior de 100mA 
+    Carga: 250V 10A AC,125V 10A AC ou 30V 10A DC 
+ 
+    * Fiação: 
+    Vcc: sistema de alimentação positiva 
+    Gnd: Potência do sistema negativa 
+    In1 - IN8: portas de controle de relé
+
 <table border="0">
 <tbody>
 <tr>
@@ -162,7 +192,19 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 </tbody>
 </table>
 
+<p>Informa&ccedil;&otilde;es de funcionamento deste m&oacute;dulo pode ser encontradas <a href="https://github.com/Epaminondaslage/Kit-SBC-Linux/tree/main/M%C3%B3dulo%20rel%C3%A9">aqui</a>.</p>
+
 # Módulo chave digital
+
+Este Módulo desenvolvido em montagens experimentais em protoboard, ele vem com pinos +VCC,out,GND e capa colorida para facilitar o manuseio. Apresenta
+as seguintes características:
+
+    Tamanho: 11*22mm (Mais detalhes via foto)
+    Cor: Branco, Vermelho, Amarelo, Verde, Azul, e Verde.
+    Tensão: 3.3 até 5 v
+    Saída: nível digital (Sinal alto, se quiser Sinal baixo inverter GND e VCC na ligação)
+    Contem um resistor de 10K entre GND e OUT (resistor de pull-down)
+    Plataforma: Compatível com qualquer plataforma, Arduíno, OrangePi, RaspberryPI e outras.
 
 <table border="0">
 <tbody>
@@ -175,7 +217,7 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 </tbody>
 </table>
 
-
+<p>Informa&ccedil;&otilde;es de funcionamento deste m&oacute;dulo pode ser encontradas <a href="https://github.com/Epaminondaslage/Kit-SBC-Linux/tree/main/M%C3%B3dulo-chave">aqui</a>.</p>
 
 # Status do Projeto
 
