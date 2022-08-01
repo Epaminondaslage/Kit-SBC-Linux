@@ -137,15 +137,19 @@ Nos nossos kits optamos em utilizar o Ubuntu para a programação em Shell Scrip
 * <a href="https://github.com/Epaminondaslage/SO_Ubuntu_SBC_OrangePI">SO Ubuntu SBC OrangePI</a> 
 * <a href="https://github.com/Epaminondaslage/SO-Debian-SBC-OrangePI">SO Debian SBC OrangePI</a> 
 
-# Espansão do conector de 40 pinos
+# Expansão do conector de 40 pinos
+
+A Placa de Expansão de GPIO - 40 Pinos é a solução ideal para expandir a utilização dos pinos de GPIO da Rasbeprry, podendo extender a conexao de 40 pinos, sendo compatível com os modelos de raspberry/orangePI.
+
+O módulo em tipo T facilita a conexão dos GPIO a uma protoboard, permitindo a prototipagem rápida durante o desenvolvimento de circuitos eletrônicos.
 
 <table border="0">
 <tbody>
 <tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/Espansao40pinos.png" alt="" width="80%" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/placaexpansao.jpg" alt="" width="40%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 5: Espansão do conector de 40 pinos .</td>
+<td style="text-align: center;">Figura 5: Expansão do conector de 40 pinos .</td>
 </tr>
 </tbody>
 </table>
