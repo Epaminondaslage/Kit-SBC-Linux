@@ -6,6 +6,9 @@
 # Índice 
 
 * [Introdução](#Introdução)
+* [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
+* [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
+* [Recursos de hardware](#Recursos-de-hardware)
 * [O Kit SBC Linux](#O-Kit-SBC-Linux)
 * [Sistema Operacional](#Sistema-Operacional)
 * [Espansão do conector de 40 pinos](#Espansão-do-conector-de-40-pinos)
@@ -21,7 +24,6 @@ Computador de placa única (SBC) é um computador onde todos os componentes elec
 Com esta oferta crescente, os fabricantes se diferenciam principalmente em dois aspectos: configurações de hardware cada vez mais robustas e preços cada vez menores. É justamente nestes dois pontos que a empresa Orange Pi focou para a fabricação da Orange Pi One. Esta placa possui características extremamente atraentes em hardware a um preço muito competitivo. Entre outras características, esta máquina também incorpora um conector de 40 pins, porta USB, uma porta Gigabit Ethernet e HDMI. 
 
 O coração do Kit SBC Linux é o OrangePi One. O Orange Pi, que é mais uma SBC (Single-Board Computers) disponibilizada no mercado, conta com um processador ARM e pode ser utilizada com varias distribuições do sistema operacional GNU/Linux. Ele foi desenhanda para ter um extrema performance e baixo custo, ela conta com o processador H3 que é o mesmo das suas irmãs mais potentes, possui memoria ram (512), não tem eMMC e nem wifi. É uma excelente escolha e é tão potente quanto uma raspberry pi ou outras do mercado com um custo excelente, conforme é mostrado na figura 1
-
 
 <table border="0">
 <tbody>
