@@ -6,7 +6,7 @@
 # Índice 
 
 * [Introdução](#Introdução)
-* [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
+* [O que é o Orange Pi?](#O-que-é-o-Orange-Pi)
 * [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
 * [O Kit SBC Linux](#O-Kit-SBC-Linux)
 * [Sistema Operacional](#Sistema-Operacional)
