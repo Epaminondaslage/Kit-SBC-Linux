@@ -71,6 +71,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 </tr>
 <tr>
 <td style="text-align: center;">Figura 4: OrangePi One- Vista superior e inferior.</td>
+
 </tr>
 </tbody>
 </table>
