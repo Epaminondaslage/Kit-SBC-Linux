@@ -92,17 +92,17 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 
 * Veja as principais características do Orange Pi One:
 
-    SoC – Allwinner H3 quad core Cortex A7 1.2 GHz com GPU ARM Mali-400MP2 de 600 MHz
-    RAM – 512 MB DDR3
-    Slot para cartão micro SD
-    Saída de vídeo/audio e HDMI
-    Conectivitidade porta RJ45 Ethernet
-    1 USB 2.0 host, 1x micro USB OTG port
-    Câmera – CSI Interface
-    40 pinos compatíveis com a Raspberry Pi
-    Debugging – 3 pinos UART
-    Botão Power
-    Alimentação – 5V/2A
+   * SoC – Allwinner H3 quad core Cortex A7 1.2 GHz com GPU ARM Mali-400MP2 de 600 MHz
+   * RAM – 512 MB DDR3
+   * Slot para cartão micro SD
+   * Saída de vídeo/audio e HDMI
+   * Conectivitidade porta RJ45 Ethernet
+   * 1 USB 2.0 host, 1x micro USB OTG port
+   * Câmera – CSI Interface
+   * 40 pinos compatíveis com a Raspberry Pi
+   * Debugging – 3 pinos UART
+   * Botão Power
+   * Alimentação – 5V/2A
      
     
 # O Kit SBC Linux
