@@ -8,7 +8,6 @@
 * [Introdução](#Introdução)
 * [O que é o Orange Pi?](#O-que-é-o-Orange-Pi?)
 * [Aplicações do Orange Pi](#Aplicações-do-Orange-Pi)
-* [Recursos de hardware](#Recursos-de-hardware)
 * [O Kit SBC Linux](#O-Kit-SBC-Linux)
 * [Sistema Operacional](#Sistema-Operacional)
 * [Espansão do conector de 40 pinos](#Espansão-do-conector-de-40-pinos)
@@ -62,32 +61,16 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <li>Android</li>
 </ul>
 
-
-# Recursos de hardware 
-
-<table border="0">
-<tbody>
-<tr>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/Imagem3.jpg" alt="" width="20%" /></td>
-</tr>
-<tr>
-<td style="text-align: center;">Figura 3: OrangePi One- Recursos de hardware.</td>
-</tr>
-</tbody>
-</table>
-
-
-
 ## As vistas superior e inferior do Orange Pi One
 
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="150" /></td>
-<td style="width: 50%;"><img src="/img/Imagem2.jpg" alt="" width="150" /></td>
+<td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="300" /></td>
+<td style="width: 50%;"><img src="/img/Imagem2.jpg" alt="" width="300" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 4: OrangePi One- Recursos de hardware.</td>
+<td style="text-align: center;">Figura 4: OrangePi One- Vista superior e inferior.</td>
 </tr>
 </tbody>
 </table>
