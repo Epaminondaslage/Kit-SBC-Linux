@@ -43,7 +43,7 @@ Estas placas rodam o SO Linux  e possuem os pinos I/O  disponíveis para acesso 
 <tbody>
 <tr>
 <td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="200" /></td>
-<td style="width: 50%;">Orange Pi &eacute; um computador de uma placa &uacute;nica e de c&oacute;digo aberto. Percence a uma nova gera&ccedil;&atilde;o de placa de desenvolvimento, pode executar o Android 4.4, Android 7.0, Ubuntu e Debian e outros sistemas operacionais. A placa de desenvolvimento Orange Pi One usa o sistema em chip Allwinner H3 e possui 512 MB de mem&oacute;ria DDR3.</td>
+<td style="width: 50%;">Figura 2. Orange Pi &eacute; um computador de uma placa &uacute;nica e de c&oacute;digo aberto. Percence a uma nova gera&ccedil;&atilde;o de placa de desenvolvimento, pode executar o Android 4.4, Android 7.0, Ubuntu e Debian e outros sistemas operacionais. A placa de desenvolvimento Orange Pi One usa o sistema em chip Allwinner H3 e possui 512 MB de mem&oacute;ria DDR3.</td>
 </tr>
 </tbody>
 </table>
@@ -64,24 +64,30 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 
 
 # Recursos de hardware 
-<table style="border-collapse: collapse; width: 100%;" border="1">
+
+<table border="0">
 <tbody>
 <tr>
-<td style="width: 50%;">
-<p><img src="/img/Imagem3.jpg" alt="" width="300" /></p>
-</td>
-<td style="width: 50%;"><img src="/img/hw orange pi.png" alt="" width="300" /></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/Imagem3.jpg" alt="" width="20%" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">Figura 3: OrangePi One- Recursos de hardware.</td>
 </tr>
 </tbody>
 </table>
 
 
+
 ## As vistas superior e inferior do Orange Pi One
+
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
 <td style="width: 50%;"><img src="/img/Imagem1.jpg" alt="" width="150" /></td>
 <td style="width: 50%;"><img src="/img/Imagem2.jpg" alt="" width="150" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">Figura 4: OrangePi One- Recursos de hardware.</td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +113,7 @@ Veja as principais características do Orange Pi One:
     
 # O Kit SBC Linux
 
-A base de sustentação para as placas foi desenvovolvida construida em uma impressora 3D. Possui dimensões de 245x180x15 mm e possui um slot para o OrangePi One, uma placa de conexões, um módulo de 8 relés e um módulo de 5 push-botons é apresentado pela figura 2. 
+A base de sustentação para as placas foi desenvovolvida construida em uma impressora 3D. Possui dimensões de 245x180x15 mm e possui um slot para o OrangePi One, uma placa de conexões, um módulo de 8 relés e um módulo de 5 push-botons é apresentado pela figura 5. 
 
 <table border="0">
 <tbody>
@@ -115,12 +121,12 @@ A base de sustentação para as placas foi desenvovolvida construida em uma impr
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/base_kit.jpg" alt="" width="40%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 2: Impressão 3D do Kit SBC Linux.</td>
+<td style="text-align: center;">Figura 5: Impressão 3D do Kit SBC Linux.</td>
 </tr>
 </tbody>
 </table>
 
-A figura 3 apresenta o kit SBC Linux com os dispositivos eletrônicos montados sobre a base.
+A figura 6 apresenta o kit SBC Linux com os dispositivos eletrônicos montados sobre a base.
 
 <table border="0">
 <tbody>
@@ -128,7 +134,7 @@ A figura 3 apresenta o kit SBC Linux com os dispositivos eletrônicos montados s
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/kit-sbclinux.png" alt="" width="80%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 3: Kit SBC Linux.</td>
+<td style="text-align: center;">Figura 6: Kit SBC Linux.</td>
 </tr>
 </tbody>
 </table>
@@ -184,7 +190,7 @@ A segunda maneira de gerenciar os pinos GPIO é usando os comandos do Shell Scri
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/Orange-Pi-One-01-478x418.png" alt="" width="80%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 4: H3 SoC Gpio do orange Pi One .</td>
+<td style="text-align: center;">Figura 7: H3 SoC Gpio do orange Pi One .</td>
 </tr>
 </tbody>
 </table>
@@ -210,7 +216,7 @@ O módulo em tipo T facilita a conexão dos GPIO a uma protoboard, permitindo a 
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/placaexpansao.jpg" alt="" width="40%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 5: Expansão do conector de 40 pinos .</td>
+<td style="text-align: center;">Figura 8: Expansão do conector de 40 pinos .</td>
 </tr>
 </tbody>
 </table>
@@ -254,7 +260,7 @@ Relés são componentes atuam como interruptores, acionando ou parando a ação 
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/modulorele.jpg" alt="" width="40%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 6: Módulo com 1,2,4 e 8 relés.</td>
+<td style="text-align: center;">Figura 9: Módulo com 1,2,4 e 8 relés.</td>
 </tr>
 </tbody>
 </table>
@@ -279,7 +285,7 @@ as seguintes características:
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/modulochave.jpg" alt="" width="40%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 7: Módulo chave.</td>
+<td style="text-align: center;">Figura 10: Módulo chave.</td>
 </tr>
 </tbody>
 </table>
