@@ -179,7 +179,7 @@ Relés são componentes atuam como interruptores, acionando ou parando a ação 
     
     * Parâmetros elétricos: 
     Tensão de fornecimento: 3,3VDC 
-    Corrente: maior de 100mA 
+    Corrente: maior de 30mA para cada acionamento 
     Carga: 250V 10A AC,125V 10A AC ou 30V 10A DC 
  
     * Fiação: 
@@ -193,12 +193,12 @@ Relés são componentes atuam como interruptores, acionando ou parando a ação 
 <td><img style="display: block; margin-left: auto; margin-right: auto;" src="/img/modulorele.jpg" alt="" width="40%" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 6: Módulo relé.</td>
+<td style="text-align: center;">Figura 6: Módulo com 1,2,4 e 8 relés.</td>
 </tr>
 </tbody>
 </table>
 
-<p>Informa&ccedil;&otilde;es de funcionamento deste m&oacute;dulo pode ser encontradas <a href="https://github.com/Epaminondaslage/Kit-SBC-Linux/tree/main/M%C3%B3dulo%20rel%C3%A9">aqui</a>.</p>
+<p>Informa&ccedil;&otilde;es de funcionamento deste m&oacute;dulo assim como o uso do pino JD-VCC podem serem encontradas <a href="https://github.com/Epaminondaslage/Kit-SBC-Linux/tree/main/M%C3%B3dulo%20rel%C3%A9">aqui</a>.</p>
 
 # Módulo botão
 
