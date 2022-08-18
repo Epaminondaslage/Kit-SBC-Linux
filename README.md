@@ -70,7 +70,7 @@ Praticamente qualquer outra coisa, porque Orange Pi é de código aberto. Podemo
 <td style="width: 50%;"><img src="/img/Imagem2.jpg" alt="" width="300" /></td>
 </tr>
 <tr>
-<td style="text-align: center;">Figura 4: OrangePi One- Vista superior e inferior.</td>
+<td style="text-align: center;">Figura 3: OrangePi One- Vista superior    Figura 4: OrangePi One- Vista inferior.</td>
 
 </tr>
 </tbody>
