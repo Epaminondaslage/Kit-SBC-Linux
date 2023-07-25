@@ -1,4 +1,4 @@
-<td style="width: 20%;"><img src="/img/top_kit_sbc_linux.png" width="20%" /></td>
+<td style="width: 20%;"><img src="/img/top_kit_sbc_linux.png" width="100%" /></td>
 
 # Índice 
 
